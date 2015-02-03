@@ -1,5 +1,6 @@
 .row {
-	*zoom: 1;
+	width: 100%;
+	zoom: 1;
 	&::before, &::after {
 		content: " ";
 		display: table;
@@ -83,6 +84,11 @@
 		width: 16.6667%;
 	}
 }
+
+.col-4_8 {
+	/* Need something for 20%.... */
+}
+
 .col-5 {
 	width: 33.3334%;
 
@@ -254,8 +260,17 @@
 .no-float {
 	clear: both;
 	float: none;
+	zoom: 1;
+
+	&::before, &::after {
+		content: " ";
+		display: table;
+	}
+	&::after {
+		clear: both;
+	}
 }
 .auto-margin {
-	display: none;
+	display: block;
 	margin: 0 auto;
 }
