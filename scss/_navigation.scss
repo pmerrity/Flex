@@ -18,3 +18,26 @@ nav {
 		}
 	}
 }
+
+footer {
+	background: $gray;
+	height: 70px;
+	text-align: center;
+
+	p {
+		font-size: 0.875em;
+
+		@media only screen and (min-width: 400px) {
+			font-size: 1em;
+		}
+	}
+
+	a {
+		border: 0 !important;;
+	}
+
+	#code, #heart {
+		vertical-align: middle;
+		width: 18px;
+	}
+}

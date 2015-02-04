@@ -13,8 +13,8 @@
 	<body class="bg-white row">
 		<section class="row">
 			<nav class="navigation col-24">
-				<ul class="col-12 pull-right text-right">
-					<li><a href="https://raw.githubusercontent.com/pmerrity/Flex/master/css/flex.css" download>Download</a></li>
+				<ul class="col-12 pull-right text-right pad-horiz-lg">
+					<li><a href="https://raw.githubusercontent.com/pmerrity/Flex/master/css/flex.css" style="border: 0" download><button class="btn-blue">Download</button></a></li>
 					<li><a href="http://perrymerrity.com">Perry</a></li>
 				</ul>
 			</nav>
@@ -58,7 +58,7 @@
 							<li><p class="text-gray"><span class="text-blue">.col-2</span> (8.33%) and <span class="text-blue">.col-22</span> (91.66%) fit next to each other <span class="text-blue">(like a logo and navbar)</span>. They break to 50% around tablet and then break to 100% for mobile.</p></li>
 						</ul>
 					</li>
-					<li><p class="text-gray"><span style="color: red">IMPORTANT NOTE: </span>There is one weird column class (<span style="color: red">.col-4p8</span>) that equals 20% (or 1/5).</p>
+					<li><p class="text-gray"><span style="color: red">IMPORTANT NOTE: </span>There is one weird column class (<span style="color: red">.col-4p8</span>) that equals 20%. One-fifth of 24 is 4.8, hence the clever name.</p>
 						<ul>
 							<li><p class="text-gray">The reason it's a strange name is because 4 divided by 24 is 16.66% and 5 divided by 24 is 20.833%.</p></li>
 							<li><p class="text-gray">Rounding would've broken everything and required gutters n stuff.</p></li>
@@ -190,6 +190,24 @@
 					</ul>
 				</div>
 			</section>
+
+
+		</section>
+		<section class="row">
+			<footer class="col-24">
+				<p class="text-white pad-vert-sm">&copy; 2015 Perry Merrity II | Built with <a href="http://perrymerrity.com">
+					<svg version="1.0" id="code" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="9 9 32 32" enable-background="new 9 9 32 32" xml:space="preserve">
+						<polygon fill="#00CED1" points="13.1,25 21.7,16 19.7,13.9 9,25 19.7,36.1 21.7,34 "></polygon>
+						<polygon fill="#00CED1" points="36.8,25 28.2,34 30.2,36.1 40.9,25 30.2,13.9 28.2,16 "></polygon></svg></a> and <a href="https://bible.com/59/rom.12.9-21.esv"><svg version="1.0" id="heart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+					<symbol id="Favorites_-_Orange" viewBox="-17.3 -12.7 31 26.6">
+						<g>
+							<path fill="#00CED1" d="M5.4,13.8c0.4,0,0.9,0,1.4-0.1c3-0.3,6.5-2.8,7-7.6V4.6C13.3,0,9.5-5.6-1.8-12.7C-13-5.6-16.9,0-17.3,4.6
+													v1.6c0.4,4.8,3.9,7.3,7,7.6c0.5,0,1,0.1,1.4,0.1c3.5,0,5.2-1.4,7.1-3.4C0.2,12.5,1.8,13.8,5.4,13.8"></path>
+						</g>
+					</symbol>
+					<use xlink:href="#Favorites_-_Orange" width="31" height="26.6" id="XMLID_1_" x="-17.3" y="-12.7" transform="matrix(1 0 0 -1 17.768 16.5626)" overflow="visible"></use></svg></a>
+				</p>
+			</footer>
 		</section>
 	</body>
 </html>
