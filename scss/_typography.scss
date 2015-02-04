@@ -1,0 +1,98 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	font-family: 'Muli', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	line-height: 1.5em;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2.6em;
+}
+h3 {
+	font-size: 2.4em;
+}
+h4 {
+	font-size: 2.1em;
+}
+h5 {
+	font-size: 1.8em;
+}
+h6 {
+	font-size: 1.5em;
+}
+p {
+	font-size: 1em;
+	margin: 0.5em 0px;
+//	max-width: 500px;
+}
+
+ul {
+	list-style-type: circle;
+	li {
+		margin-left: 2em;
+	}
+}
+a {
+	border-bottom: 1px solid $mint;
+	box-sizing: border-box;
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover {
+		color: $mint;
+	}
+	&:visited {
+		color: $gray_med;
+
+		&:hover {
+			color: $mint;
+		}
+	}
+}
+.text-gray {
+	color: $gray;
+	//	text-shadow: 1px 1px 2px $gray_dark;
+}
+.text-blue {
+	color: $blue;
+}
+.text-mint {
+	color: $mint;
+}
+.text-white {
+	color: $white;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}

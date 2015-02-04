@@ -1,0 +1,228 @@
+
+/******************************************
+6.1 Buttons
+******************************************/
+
+button, .btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin: 7px 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	outline: 0;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn-blue {
+	background-color: $blue;
+	color: $white;
+	box-shadow: 0 5px 0 $blue_med;
+	&:hover {
+		background-color: $blue_med;
+		box-shadow: 0 6px 0 $blue_dark;
+	}
+	&:active {
+		background-color: $blue_dark;
+		box-shadow: 0 6px 0 $blue_med;
+	}
+}
+
+.btn-gray {
+	background: $gray;
+	color: $white;
+	box-shadow: 0 5px 0 $gray_med;
+	&:hover {
+		background: $gray_med;
+		box-shadow: 0 5px 0 $gray;
+	}
+	&:active {
+		background: $gray;
+		box-shadow: 0 5px 0 $gray_med;
+	}
+}
+
+.btn-mint {
+	background: $mint;
+	color: $white !important;
+	box-shadow: 0 5px 0 $mint_med;
+
+	&:hover {
+		background-color: $mint_med;
+		box-shadow: 0 6px 0 $mint_dark;
+	}
+	&:active {
+		background-color: $mint_dark;
+		box-shadow: 0 6px 0 $mint;
+	}
+}
+
+/******************************************
+6.2 Checkboxes
+******************************************/
+
+.checkbox {
+	//    width: 100% !important;
+
+	label {
+		//      display: inline-block;
+		//      width: 100% !important;
+		margin-bottom: 15px;
+		input[type=checkbox] {
+			height: 20px;
+			width: 20px;
+			vertical-align: middle;
+		}
+	}
+}
+
+input[type=checkbox] {
+	cursor: pointer;
+	height: 25px;
+	margin-right: 0px;
+	position: absolute;
+	opacity: 0;
+	width: 25px;
+	z-index: 2;
+
+	&:checked + .check_span {
+		background: $mint;
+		border:none;
+		padding: 5px;
+	}
+
+	&:checked + .check_span::before {
+		background-color: $white;
+		height: 9px;
+		left: 5px;
+		top: 10px;
+
+		transform:rotate(-47deg);
+		-webkit-transform:rotate(-47deg);
+	}
+
+	&:checked + .check_span::after {
+		background-color: $white;
+		height: 16px;
+		right: 8px;
+		top: 6px;
+
+		transform:rotate(45deg);
+		-webkit-transform:rotate(45deg);
+	}
+}
+
+input[type=checkbox] + .check_span {
+	background: transparent;
+	border: 3px solid $gray;
+	border-radius: 50%;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+	cursor: pointer;
+	display: inline-block;
+	height: 25px;
+	margin-right: 10px;
+	position: relative;
+	vertical-align: middle;
+	width: 25px;
+
+	transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+
+	&::before,
+	&::after {
+		background: none;
+		content:'';
+		display:block;
+		position:absolute;
+		width:4px;
+
+		transition: all .2s ease;
+		-moz-transition: all .2s ease;
+		-o-transition: all .2s ease;
+		-webkit-transition: all .2s ease;
+	}
+
+	&::before {
+		height:16px;
+		left:13px;
+		top:7px;
+
+		transform:rotate(90deg);
+		-webkit-transform:rotate(90deg);
+	}
+
+	&::after {
+		height:16px;
+		right:13px;
+		top:7px;
+	}
+}
+
+
+/******************************************
+6.x Popups
+******************************************/
+
+.overlay_bg {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	height:100%;
+	width:100%;
+	z-index:5000;
+	position:fixed;
+	top:0;
+	z-index: 20;
+	left:0;
+
+}
+
+
+
+
+.popup_window {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	background: $white;
+	color: #595959;
+	padding: 15px;
+	position: fixed;
+	border: solid 5px;
+	z-index: 50;
+	.exit_btn {
+		z-index: 51;
+		position: absolute;
+		padding: 5px;
+		margin-left: calc(100% - 35px);
+		margin-top: -15px;
+		cursor: pointer;
+		display: block;
+		&:hover {
+			background-color: $gray;
+			color:  $white;
+		}
+	}
+}
+
+/******************************************
+6.x Images
+******************************************/
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}

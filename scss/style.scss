@@ -1,0 +1,91 @@
+/*********************/
+/* Table of Contents */
+/* 1.0 Reset         */
+/* 2.0 Color         */
+/* 4.0 Typography    */
+/* 5.0 Menus         */
+/* 6.0 Elements      */
+/* Table of Contents */
+/* Table of Contents */
+/* Table of Contents */
+/* Table of Contents */
+/*********************/
+
+/******************************************
+1.0 Reset
+******************************************/
+
+@import 'reset';
+
+/******************************************
+2.0 Color
+******************************************/
+
+@import 'color_palette';
+
+/******************************************
+4.0 Typography
+******************************************/
+
+@import 'typography';
+
+/******************************************
+5.0 Menus
+******************************************/
+
+@import 'navigation';
+
+/******************************************
+6.0 Elements
+******************************************/
+
+@import 'elements';
+
+
+/******************************************
+7.0 Elements
+******************************************/
+
+@import 'positioning';
+
+@import 'extra';
+
+.transition {
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+.auto-margin {
+    display: block;
+    margin: 0 auto;
+}
+.no-float {
+	clear: both;
+    float: none;
+}
+
+.no-pad {
+	padding: 0;
+}
+
+.pull-right {
+	float: right !important;
+}
+.no-decoration {
+	color: inherit;
+	text-decoration: none !important;
+}
+.set-free {
+	position: relative;
+	right: 99999999px;
+}
+.section-border {
+	border-bottom: 1px solid $gray;
+	border-top: 1px solid $gray;
+	margin: 40px auto;
+}
+
+footer.copyright {
+	text-align: center;
+}

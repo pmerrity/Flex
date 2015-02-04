@@ -1,1 +1,195 @@
-Flex Grid
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flex | Perry Merrity</title>
+		<meta name="author" content="Perry Merrity II">
+		<meta name="description" content="Flex is a 24-column grid designed to be fully responsive. Simple naming conventions. Developed by Perry Merrity, a UX & Web Designer in Dallas.">
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/pmerrity/Flex/master/css/flex.css"/>
+	</head>
+
+	<body class="bg-white row">
+		<section class="row">
+			<nav class="navigation col-24">
+				<ul class="col-12 pull-right text-right">
+					<li><a href="https://raw.githubusercontent.com/pmerrity/Flex/master/css/flex.css" download>Download</a></li>
+					<li><a href="http://perrymerrity.com">Perry</a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<section class="row pad-vert-sm">
+			<div class="col-18 no-float auto-margin">
+				<span class="set-free"><h1 class="text-center" style="display: inline">Flex</h1></span>
+				<img src="img/flex.png" alt="flex responsive grid framework" />
+				<h4 class="text-center text-gray">The coolest grid on the block</h4>
+			</div>
+		</section>
+
+		<section class="row pad-vert-md">
+			<div class="col-23 no-float auto-margin">
+				<h2 class="text-blue">Simple</h2>
+				<p class="text-gray">So I did a thing. This is a simple 24-column grid with precise values (no gutters).</p>
+				<p class="text-gray">The grid has 5 classes:</p>
+				<ul>
+					<li><p class="text-gray"><strong class="text-blue">.row</strong> - Basically a clearfix wrapper that keeps floated elements from breaking your layout.</p></li>
+					<li><p class="text-gray"><strong class="text-blue">.col-#</strong> - Replace '#' with any number (1-24) or with 4p8 (for 20% because math).</p></li>
+					<li><p class="text-gray"><strong class="text-blue">.no-float</strong> - All columns (except 24) are floated left. This removes the float. Best used with <span class="text-blue">.auto-margin</span> for centering.</p></li>
+					<li><p class="text-gray"><strong class="text-blue">.auto-margin</strong> - Basically a clearfix wrapper that keeps floated elements from breaking your layout.</p></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="row pad-vert-md">
+			<div class="col-23 no-float auto-margin">
+				<h2 class="text-blue">Responsible</h2>
+				<p class="text-gray">This grid is so responsive yo mama will put you up for adoption because this grid can responsibly handle itself more efficiently.</p>
+				<p class="text-gray">Not funny?</p>
+				<p class="text-gray">Yeah I know. That's why my ex left me (true story).</p>
+				<p class="text-gray">But srsly. Sincerest apologies to your dear mother. Keep reading:</p>
+				<ul>
+					<li><p class="text-gray">The grid breaks at 4 of the most common breakpoints <span class="text-blue">(480px, 600px, 768px, and 992px)</span>.</p></li>
+					<li><p class="text-gray">I did my best to break the columns using the best web standards. Examples:</p>
+						<ul>
+							<li><p class="text-gray"><span class="text-blue">.col-12</span> (50%) becomes 100% for tablet and below.</p></li>
+							<li><p class="text-gray"><span class="text-blue">.col-6</span> (25%) becomes 50% for tablet and 100% on mobile.</p></li>
+							<li><p class="text-gray"><span class="text-blue">.col-2</span> (8.33%) and <span class="text-blue">.col-22</span> (91.66%) fit next to each other <span class="text-blue">(like a logo and navbar)</span>. They break to 50% around tablet and then break to 100% for mobile.</p></li>
+						</ul>
+					</li>
+					<li><p class="text-gray"><span style="color: red">IMPORTANT NOTE: </span>There is one weird column class (<span style="color: red">.col-4p8</span>) that equals 20% (or 1/5).</p>
+						<ul>
+							<li><p class="text-gray">The reason it's a strange name is because 4 divided by 24 is 16.66% and 5 divided by 24 is 20.833%.</p></li>
+							<li><p class="text-gray">Rounding would've broken everything and required gutters n stuff.</p></li>
+							<li><p style="color: red">If you can think of a better name let me know smarty pants.</p></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="row pad-vert-md">
+			<div class="col-23 no-float auto-margin">
+				<h2 class="text-blue">Enjoyable</h2>
+				<p class="text-gray">Resize your browser. Be wowed.</p>
+			</div>
+		</section>
+
+		<section class="col-23 no-float auto-margin">
+			<section class="row">
+				<div class="box col-1"><p class="text-white">.col-1</p></div>
+				<div class="box col-23"><p class="text-white">.col-23</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-2"><p class="text-white">.col-2</p></div>
+				<div class="box col-22"><p class="text-white">.col-22</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-3"><p class="text-white">.col-3</p></div>
+				<div class="box col-21"><p class="text-white">.col-21</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-4"><p class="text-white">.col-4</p></div>
+				<div class="box col-20"><p class="text-white">.col-20</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-5"><p class="text-white">.col-5</p></div>
+				<div class="box col-19"><p class="text-white">.col-19</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-6"><p class="text-white">.col-6</p></div>
+				<div class="box col-18"><p class="text-white">.col-18</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-7"><p class="text-white">.col-7</p></div>
+				<div class="box col-17"><p class="text-white">.col-17</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-8"><p class="text-white">.col-8</p></div>
+				<div class="box col-16"><p class="text-white">.col-16</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-9"><p class="text-white">.col-9</p></div>
+				<div class="box col-15"><p class="text-white">.col-15</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-10"><p class="text-white">.col-10</p></div>
+				<div class="box col-14"><p class="text-white">.col-14</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-11"><p class="text-white">.col-11</p></div>
+				<div class="box col-13"><p class="text-white">.col-13</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-12"><p class="text-white">.col-12</p></div>
+				<div class="box col-12"><p class="text-white">.col-12</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-8"><p class="text-white">.col-8</p></div>
+				<div class="box col-8"><p class="text-white">.col-8</p></div>
+				<div class="box col-8"><p class="text-white">.col-8</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-6"><p class="text-white">.col-6</p></div>
+				<div class="box col-6"><p class="text-white">.col-6</p></div>
+				<div class="box col-6"><p class="text-white">.col-6</p></div>
+				<div class="box col-6"><p class="text-white">.col-6</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-4p8"><p class="text-white">.col-4p8</p></div>
+				<div class="box col-4p8"><p class="text-white">.col-4p8</p></div>
+				<div class="box col-4p8"><p class="text-white">.col-4p8</p></div>
+				<div class="box col-4p8"><p class="text-white">.col-4p8</p></div>
+				<div class="box col-4p8"><p class="text-white">.col-4p8</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-4"><p class="text-white">.col-4</p></div>
+				<div class="box col-4"><p class="text-white">.col-4</p></div>
+				<div class="box col-4"><p class="text-white">.col-4</p></div>
+				<div class="box col-4"><p class="text-white">.col-4</p></div>
+				<div class="box col-4"><p class="text-white">.col-4</p></div>
+				<div class="box col-4"><p class="text-white">.col-4</p></div>
+			</section>
+
+			<section class="row">
+				<div class="box col-12">
+					<div class="box col-12"><p class="text-white">.col-12 in .col-12</p></div>
+					<div class="box col-12"><p class="text-white">.col-12 in .col-12</p></div>
+				</div>
+				<div class="box col-12">
+					<div class="box col-6"><p class="text-white">.col-6 in .col-12</p></div>
+					<div class="box col-6"><p class="text-white">.col-6 in .col-12</p></div>
+					<div class="box col-6"><p class="text-white">.col-6 in .col-12</p></div>
+					<div class="box col-6"><p class="text-white">.col-6 in .col-12</p></div>
+				</div>
+			</section>
+
+			<section class="row pad-vert-md">
+				<div class="col-23 no-float auto-margin">
+					<h2 class="text-blue">License</h2>
+					<p>Flex is free to use however you want. But there's a small catch</p>
+					<ul>
+						<li><p>Flex is under an <a href="https://github.com/pmerrity/Flex/blob/master/LICENSE">MIT license</a>. You can do whatever, but you must include the license. Oh. Also you can't sue me for breaking your website.</p></li>
+						<li><p>I would appreciate linkbacks to <a href="http://perrymerrity.com">my website</a>, even if it's just in your code comments. But if you hate me, I guess you don't have to.</p></li>
+					</ul>
+				</div>
+			</section>
+		</section>
+	</body>
+</html>

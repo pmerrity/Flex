@@ -1,0 +1,20 @@
+nav {
+	padding: 25px 0;
+
+	ul {
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-left: 1em;
+			padding: 5px 15px;
+
+			a {
+				display: block;
+			}
+		}
+		ul {
+			display: none;
+			margin-left: 1em;
+		}
+	}
+}

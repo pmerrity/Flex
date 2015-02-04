@@ -1,0 +1,84 @@
+/******************************************
+7.1 Clearfix
+******************************************/
+
+.clearfix {
+	*zoom: 1;
+	&::before, &::after {
+		content: " ";
+		display: table;
+	}
+	&::after {
+		clear: both;
+	}
+}
+
+/******************************************
+7.1 Positioning
+******************************************/
+
+.offset-x-pos {
+	position: relative;
+	left: 20px;
+}
+.offset-x-neg {
+	position: relative;
+	left: -20px;
+}
+
+.offset-y-pos {
+	position: relative;
+	top: -20px;
+}
+
+.offset-y-neg {
+	position: relative;
+	top: 20px;
+}
+
+/******************************************
+7.1 Align
+******************************************/
+
+/******************************************
+7.1 Float
+******************************************/
+
+/******************************************
+7.1 Float
+******************************************/
+.pad-sm {
+	padding: 20px;
+}
+
+.pad-md {
+	padding: 40px;
+}
+
+.pad-lg {
+	padding: 80px;
+}
+
+.pad-vert-sm {
+	padding: 20px 0px;
+}
+
+.pad-vert-md {
+	padding: 40px 0px;
+}
+
+.pad-vert-lg {
+	padding: 80px 0px;
+}
+
+.pad-horiz-sm {
+	padding: 0px 20px;
+}
+
+.pad-horiz-md {
+	padding: 0px 40px;
+}
+
+.pad-horiz-lg {
+	padding: 0px 80px;
+}
