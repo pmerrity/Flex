@@ -2,7 +2,7 @@
 Flex is a responsive grid system. It is based on a 24-column grid system and contains standard media query breakpoints for mobile (480px) and tablet (768px), so you don't have to worry about it!
 
 ### Features
-- Whopping 1kb
+- Whopping 3kb
 - Breakpoints at 480px, 600px, 768px, and 992px
 
 ### Syntax
