@@ -11,10 +11,34 @@ body {
 .box {
 	background-color: #00CED1;
 	border: 1px solid #046f90;
-	box-sizing: border-box;
 	text-align: center;
 }
 
 p {
 	color: #696969;
+	font-size: 1em;
+}
+
+@media only screen and (min-width: 769px) {
+	p {
+		font-size: 0.75em;
+	}
+}
+
+@media only screen and (min-width: 815px) {
+	p {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	p {
+		font-size: 0.9em;
+	}
+}
+
+@media only screen and (min-width: 961px) {
+	p {
+		font-size: 1em;
+	}
 }

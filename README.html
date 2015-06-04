@@ -1,16 +1,34 @@
-<h1 id="flex">Flex</h1>
-<p>Flex is a responsive grid system. It is based on a 24-column grid system and contains standard media query breakpoints for mobile (480px) and tablet (768px), so you don&#39;t have to worry about it!</p>
+<h1 id="flex-1-1-0-">Flex (1.1.0)</h1>
+<p>Flex is a responsive grid system. It is based on a 24-column grid system and contains standard media query breakpoints for mobile (480px), tablet (768px), and desktop (992px) so you don&#39;t have to worry about it!</p>
+<h3 id="what-s-new-v1-1-0-">What&#39;s New? (v1.1.0)</h3>
+<ul>
+<li>Adding border-box box-sizing to the columns, and everything within them will inherit the CSS property. No more hassle with borders and padding!</li>
+<li>Changed the weird &quot;.col-4p8&quot; to &quot;.col-4-8&quot;.</li>
+<li>Updated the breakspoints by 1px to break properly.</li>
+<li>New things! Added padding classes to throw some quick.</li>
+<li>More Sarcasm!</li>
+</ul>
+<h3 id="why-should-i-use-this-">Why Should I Use This?</h3>
+<p>Because most frameworks are a piece of poo. Nobody wants 500MB worth of useless junk added to their nifty site! Unless that&#39;s your thing...I use this for all of most of my projects, templating, and various client sites because I don&#39;t need 500MB crappy framework files that slow down my site.</p>
 <h3 id="features">Features</h3>
 <ul>
-<li>Whopping 3kb</li>
-<li>Breakpoints at 480px, 600px, 768px, and 992px</li>
+<li>Put your site on a diet and feed it a whopping 3kb grid.</li>
+<li>Optimized breakpoints at 480px, 600px, 768px, and 992px.</li>
+<li>Not 500MB.</li>
+<li>No more &quot;column-8 column-sm-200 column-bigmac&quot; classes on every single tag! Flex just works.</li>
+<li>Not working 100% the way you&#39;d like it to? Change it yourself. It&#39;s easy. Figure it out. I mean...Fully Customizable! Written in SCSS for your convenience.</li>
 </ul>
-<h3 id="syntax">Syntax</h3>
-<p>The grid is light and simple to master! There are 5 classes you can use:</p>
+<h3 id="how-u-use-it-">hOw U uSe It?!!?/</h3>
+<p>The grid is light and simple to master! There are a number of classes you can use (not a million):</p>
 <ul>
 <li>.row -- A wrapper that is clearfix ready (prevents collapsing when children are floated).</li>
-<li>.col-# -- Replace &quot;#&quot; with a number 1 - 24 to determine number of columns it spans. (i.e. col-24 = 100%)</li>
+<li>.col-{#} -- Replace {#} with a number 1 - 24 to determine number of columns it spans. (i.e. col-24 = 100%).</li>
 <li>.no-float -- Overrides the &quot;float: left&quot; property in each .col-# class. Use with .auto-margin</li>
-<li>.auto-margin -- Makes an element block-level and centers it within the parent. Example: maybe you want an element to be 50%, but  centered instead of to the left</li>
+<li>.auto-margin -- Makes an element block-level and centers it within the parent. Example: maybe you want an element to be 50%, but  centered instead of to the left.</li>
 <li>.pull-right -- Columns float left by default. Want it on the right? Use this.</li>
+</ul>
+<h5 id="new-">New!</h5>
+<ul>
+<li>.pad-{size} -- This standard padding is simple. Want a teeny bit of padding? Just add .pad-xs to any class and voila! 5px padding all around. Available sizes: xxs, xs, sm, md, lg, xl, xxl (5px, 10px, 20px, 40px, 80px, 120px 180px respectively).</li>
+<li>.pad-{direction}-{size} -- Similar to the top, but the if you want it to only go horizontal or vertical, just add &quot;horiz&quot; or &quot;vert&quot; (i.e. .pad-vert-sm = padding: 10px 0px).</li>
 </ul>

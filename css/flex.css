@@ -1,0 +1,327 @@
+/* line 2, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.no-float, .row {
+  width: 100%;
+  zoom: 1; }
+  /* line 6, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+  .no-float::before, .no-float::after, .row::before, .row::after {
+    content: " ";
+    display: table; }
+  /* line 11, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+  .no-float::after, .row::after {
+    clear: both; }
+
+/* line 39, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-1, .col-2, .col-3, .col-4, .col-4-8, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16, .col-17, .col-18, .col-19, .col-20, .col-21, .col-22, .col-23 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  min-height: 1px; }
+  /* line 46, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+  .col-1 *, .col-2 *, .col-3 *, .col-4 *, .col-4-8 *, .col-5 *, .col-6 *, .col-7 *, .col-8 *, .col-9 *, .col-10 *, .col-11 *, .col-12 *, .col-13 *, .col-14 *, .col-15 *, .col-16 *, .col-17 *, .col-18 *, .col-19 *, .col-20 *, .col-21 *, .col-22 *, .col-23 * {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit; }
+
+/* line 52, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-1 {
+  width: 25%; }
+  @media only screen and (min-width: 481px) {
+    .col-1 {
+      width: 16.6667%; } }
+  @media only screen and (min-width: 601px) {
+    .col-1 {
+      width: 12.5%; } }
+  @media only screen and (min-width: 993px) {
+    .col-1 {
+      width: 4.1667%; } }
+
+/* line 68, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-2 {
+  width: 100%; }
+  @media only screen and (min-width: 481px) {
+    .col-2 {
+      width: 50%; } }
+  @media only screen and (min-width: 769px) {
+    .col-2 {
+      width: 8.3334%; } }
+
+/* line 80, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-3 {
+  width: 25%; }
+  @media only screen and (min-width: 601px) {
+    .col-3 {
+      width: 12.5%; } }
+
+/* line 88, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-4 {
+  width: 50%; }
+  @media only screen and (min-width: 481px) {
+    .col-4 {
+      width: 25%; } }
+  @media only screen and (min-width: 601px) {
+    .col-4 {
+      width: 16.6667%; } }
+
+/* line 100, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-4-8 {
+  width: 100%; }
+  @media only screen and (min-width: 601px) {
+    .col-4-8 {
+      width: 50%; } }
+  @media only screen and (min-width: 769px) {
+    .col-4-8 {
+      width: 20%; } }
+
+/* line 112, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-5 {
+  width: 33.3334%; }
+  @media only screen and (min-width: 769px) {
+    .col-5 {
+      width: 20.8334%; } }
+
+/* line 120, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-6 {
+  width: 100%; }
+  @media only screen and (min-width: 481px) {
+    .col-6 {
+      width: 50%; } }
+  @media only screen and (min-width: 769px) {
+    .col-6 {
+      width: 25%; } }
+
+/* line 132, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-7 {
+  width: 33.3334%; }
+  @media only screen and (min-width: 601px) {
+    .col-7 {
+      width: 29.1667%; } }
+
+/* line 140, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-8 {
+  width: 100%; }
+  @media only screen and (min-width: 769px) {
+    .col-8 {
+      width: 33.3334%; } }
+
+/* line 148, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-9 {
+  width: 50%; }
+  @media only screen and (min-width: 601px) {
+    .col-9 {
+      width: 37.5%; } }
+
+/* line 156, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-10 {
+  width: 50%; }
+  @media only screen and (min-width: 601px) {
+    .col-10 {
+      width: 41.6667%; } }
+
+/* line 164, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-11 {
+  width: 50%; }
+  @media only screen and (min-width: 601px) {
+    .col-11 {
+      width: 45.8334%; } }
+
+/* line 172, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-12 {
+  width: 100%; }
+  @media only screen and (min-width: 769px) {
+    .col-12 {
+      width: 50%; } }
+
+/* line 180, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-13 {
+  width: 50%; }
+  @media only screen and (min-width: 601px) {
+    .col-13 {
+      width: 54.1667%; } }
+
+/* line 188, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-14 {
+  width: 50%; }
+  @media only screen and (min-width: 601px) {
+    .col-14 {
+      width: 58.3334%; } }
+
+/* line 196, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-15 {
+  width: 50%; }
+  @media only screen and (min-width: 601px) {
+    .col-15 {
+      width: 62.5%; } }
+
+/* line 204, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-16 {
+  width: 100%; }
+  @media only screen and (min-width: 769px) {
+    .col-16 {
+      width: 66.6667%; } }
+
+/* line 212, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-17 {
+  width: 66.6667%; }
+  @media only screen and (min-width: 601px) {
+    .col-17 {
+      width: 70.8334%; } }
+
+/* line 220, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-18 {
+  width: 100%; }
+  @media only screen and (min-width: 481px) {
+    .col-18 {
+      width: 50%; } }
+  @media only screen and (min-width: 769px) {
+    .col-18 {
+      width: 75%; } }
+
+/* line 232, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-19 {
+  width: 66.6667%; }
+  @media only screen and (min-width: 769px) {
+    .col-19 {
+      width: 79.1667%; } }
+
+/* line 240, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-20 {
+  width: 100%; }
+  @media only screen and (min-width: 481px) {
+    .col-20 {
+      width: 75%; } }
+  @media only screen and (min-width: 601px) {
+    .col-20 {
+      width: 83.3334%; } }
+
+/* line 252, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-21 {
+  width: 75%; }
+  @media only screen and (min-width: 601px) {
+    .col-21 {
+      width: 87.5%; } }
+
+/* line 260, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-22 {
+  width: 100%; }
+  @media only screen and (min-width: 481px) {
+    .col-22 {
+      width: 50%; } }
+  @media only screen and (min-width: 769px) {
+    .col-22 {
+      width: 91.6667%; } }
+
+/* line 272, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-23 {
+  width: 75%; }
+  @media only screen and (min-width: 481px) {
+    .col-23 {
+      width: 83.3334%; } }
+  @media only screen and (min-width: 601px) {
+    .col-23 {
+      width: 87.5%; } }
+  @media only screen and (min-width: 993px) {
+    .col-23 {
+      width: 95.8334%; } }
+
+/* line 288, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.col-24 {
+  min-height: 1px;
+  position: relative;
+  width: 100%; }
+
+/* line 294, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.no-float {
+  float: none !important; }
+
+/* line 298, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.auto-margin {
+  display: block;
+  margin: 0 auto; }
+
+/* line 303, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pull-right {
+  float: right !important; }
+
+/* line 307, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-xxs {
+  padding: 5px; }
+
+/* line 311, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-xs {
+  padding: 10px; }
+
+/* line 315, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-sm {
+  padding: 20px; }
+
+/* line 319, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-md {
+  padding: 40px; }
+
+/* line 323, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-lg {
+  padding: 80px; }
+
+/* line 327, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-xl {
+  padding: 120px; }
+
+/* line 331, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-xxl {
+  padding: 180px; }
+
+/* line 335, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-vert-xxs {
+  padding: 5px 0px; }
+
+/* line 339, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-vert-xs {
+  padding: 10px 0px; }
+
+/* line 343, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-vert-sm {
+  padding: 20px 0px; }
+
+/* line 347, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-vert-md {
+  padding: 40px 0px; }
+
+/* line 351, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-vert-lg {
+  padding: 80px 0px; }
+
+/* line 355, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-vert-xl {
+  padding: 120px 0px; }
+
+/* line 359, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-vert-xxl {
+  padding: 180px 0px; }
+
+/* line 363, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-horiz-xxs {
+  padding: 0px 5px; }
+
+/* line 367, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-horiz-xs {
+  padding: 0px 10px; }
+
+/* line 371, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-horiz-sm {
+  padding: 0px 20px; }
+
+/* line 375, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-horiz-md {
+  padding: 0px 40px; }
+
+/* line 379, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-horiz-lg {
+  padding: 0px 80px; }
+
+/* line 383, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-horiz-xl {
+  padding: 0px 120px; }
+
+/* line 387, /Users/perrymerrity/Documents/SITES/Flex/scss/flex.scss */
+.pad-horiz-xxl {
+  padding: 0px 180px; }
